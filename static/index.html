@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WoushStore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+    
+  <div class="top-controls">
+    
+    <div class="select-group-left">
+      <select id="languageSelect" class="select-language" onchange="switchLanguage()">
+        <option value="en">Eng</option>
+        <option value="ru">Ru</option>
+      </select>
+    </div>
+    <h1 id="title">WoushStore</h1>
+    <div class="select-group-right">
+      <button onclick="toggleSortOrder()" id="sortBtn"class ="sortbtn">Sort: Low to High</button>
+    </div>
+  </div>
+
+  <div class="container" id="store"></div>
+
+  <h2 id="inventory">Full Inventory</h2>
+  <div class="container" id="all"></div>
+
+  <!-- Кнопка внизу для загрузки всего инвентаря -->
+  <div style="text-align:center; margin: 30px;">
+    <button onclick="loadAll()" id="allBtn">Show Full Inventory</button>
+  </div>
+  
+  <script src="/static/js/scripts.js"></script>
+</body>
+</html>
