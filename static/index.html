@@ -8,31 +8,31 @@
 </head>
 <body>
 
-    
+  <!-- ВЕРХНЯЯ ПАНЕЛЬ -->
   <div class="top-controls">
-    
-    <div class="select-group-left">
-      <select id="languageSelect" class="select-language" onchange="switchLanguage()">
-        <option value="en">Eng</option>
-        <option value="ru">Ru</option>
-      </select>
-    </div>
-    <h1 id="title">WoushStore</h1>
-    <div class="select-group-right">
-      <button onclick="toggleSortOrder()" id="sortBtn"class ="sortbtn">Sort: Low to High</button>
-    </div>
+  <div class="select-group-left">
+    <button class="navbtn" onclick="location.href='https://example.com/page1'">Button 1</button>
+    <button class="navbtn" onclick="location.href='https://example.com/page2'">Button 2</button>
   </div>
 
+  <h1 class="top-title">WoushStore</h1>
+
+  <div class="select-group-right">
+    <button onclick="toggleSortOrder()" id="sortBtn" class="sortbtn">Sort: Low to High</button>
+  </div>
+</div>
+  
+
+  <!-- Основной контент -->
   <div class="container" id="store"></div>
 
   <h2 id="inventory">Full Inventory</h2>
   <div class="container" id="all"></div>
 
-  <!-- Кнопка внизу для загрузки всего инвентаря -->
   <div style="text-align:center; margin: 30px;">
-    <button onclick="loadAll()" id="allBtn">Show Full Inventory</button>
+    <button onclick="toggleInventory()" id="allBtn">Show Full Inventory</button>
   </div>
-  
+
   <script src="/static/js/scripts.js"></script>
 </body>
 </html>

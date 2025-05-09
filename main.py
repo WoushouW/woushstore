@@ -9,7 +9,7 @@ from inventory import fetch_inventory, is_weapon
 app = FastAPI()
 
 # Статичный SteamID64
-STATIC_STEAM_ID = "76561198127660581"  # Вставь свой SteamID64
+STATIC_STEAM_ID = "76561199479353760"  # Вставь свой SteamID64
 
 app.add_middleware(
     CORSMiddleware,
@@ -24,7 +24,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/", response_class=HTMLResponse)
 def index():
-    return Path("static/index.html").read_text()
+    return Path("static/index.html").read_text(encoding="utf-8")
 
 
 @app.get("/inventory")
