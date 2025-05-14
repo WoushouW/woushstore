@@ -9,7 +9,7 @@ from inventory import fetch_inventory, is_weapon
 app = FastAPI()
 
 # Статичный SteamID64
-STATIC_STEAM_ID = "76561199479353760"
+STATIC_STEAM_ID = "76561198942859324"
 
 app.add_middleware(
     CORSMiddleware,
