@@ -79,8 +79,8 @@ function createStoreItemCard(item) {
       <div class="item-section price" data-value="${item.price}">Price: $${item.price}</div>
       <div class="item-section">In Stock: ${item.count}</div>
       <div class="item-section">
-        <a href="${item.link}" target="_blank">
-          <button ${item.count === 0 ? 'disabled' : ''}>Buy</button>
+        <a href="${item.link}" target="_blank" class="buybtn">
+          <button class="buybtn" ${item.count === 0 ? 'disabled' : ''}>Buy</button>
         </a>
       </div>
     </div>
