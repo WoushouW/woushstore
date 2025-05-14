@@ -36,12 +36,17 @@ def get_inventory():
     for item in store_items:
         name = item["name"]
         price = item["price"]
+        image = item.get("image", "/static/skins/skin.jpg")  # добавляем image
+        link = item.get("link", "#")  # добавляем link
         count = inventory.get(name, 0)
+
         result.append({
             "name": name,
             "price": price,
+            "image": image,  # теперь передаётся
+            "link": link,    # теперь передаётся
             "count": count
-        })
+    })
 
     return JSONResponse(result)
 
