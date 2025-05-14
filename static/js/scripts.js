@@ -2,7 +2,7 @@ let isSortedAscending = true;
 let storeData = [];
 let inventoryData = [];
 
-const STATIC_STEAM_ID = "76561198127660581";
+const STATIC_STEAM_ID = "76561198942859324";
 
 // Загрузка товаров
 function loadStore() {
