@@ -1,38 +1,146 @@
 [
   { 
-    "name": "AK-47 | Redline (Field-Tested)", 
-    "price": 12.50, 
-    "link": "https://example.com/buy/ak47-redline",
-    "image": "https://example.com/images/ak47-redline.jpg"
+    "name": "AK-47 | Phantom Disruptor", 
+    "price": 15.00, 
+    "link": "", 
+    "image": "" 
   },
   { 
-    "name": "AWP | Asiimov (Field-Tested)", 
-    "price": 45.00, 
-    "link": "https://example.com/buy/awp-asiimov", 
-    "image": "https://example.com/images/awp-asiimov.jpg" 
+    "name": "AK-47 | Ice Coaled", 
+    "price": 20.00, 
+    "link": "", 
+    "image": "" 
   },
   { 
-    "name": "M4A1-S | Hyper Beast (Minimal Wear)", 
+    "name": "AK-47 | Legion of Anubis", 
     "price": 25.00, 
-    "link": "https://example.com/buy/m4a1s-hyper-beast", 
-    "image": "https://example.com/images/m4a1s-hyper-beast.jpg"
+    "link": "", 
+    "image": "" 
   },
   { 
-    "name": "Desert Eagle | Blaze (Factory New)", 
-    "price": 33.00, 
-    "link": "https://example.com/buy/desert-eagle-blaze", 
-    "image": "https://example.com/images/desert-eagle-blaze.jpg"
+    "name": "AK-47 | Crossfade", 
+    "price": 10.00, 
+    "link": "", 
+    "image": "" 
   },
   { 
-    "name": "M4A4 | Howl (Battle-Scarred)", 
-    "price": 50.00, 
-    "link": "https://example.com/buy/m4a4-howl", 
-    "image": "https://example.com/images/m4a4-howl.jpg"
+    "name": "AK-47 | Nightwish", 
+    "price": 30.00, 
+    "link": "", 
+    "image": "" 
   },
   { 
-    "name": "Five-SeveN | Sky Blue (Field-Tested)", 
-    "price": 7.00, 
-    "link": "https://www.google.com/", 
-    "image": "https://example.com/images/fiveseven-sky-blue.jpg"
+    "name": "AK-47 | Frontside Misty", 
+    "price": 35.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "AK-47 | Slate", 
+    "price": 18.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A1-S | Night Terror", 
+    "price": 12.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A1-S | Nitro", 
+    "price": 10.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A1-S | Emphorosaur-S", 
+    "price": 14.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A1-S | Flashback", 
+    "price": 16.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A4 | Neo-Noir", 
+    "price": 28.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A4 | Desolate Space", 
+    "price": 26.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A4 | In Living Color", 
+    "price": 22.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A4 | Tooth Fairy", 
+    "price": 20.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A4 | Temukau", 
+    "price": 40.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A4 | Griffin", 
+    "price": 15.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "M4A4 | Buzz Kill", 
+    "price": 38.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "AWP | Mortis", 
+    "price": 18.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "AWP | Chromatic Aberration", 
+    "price": 30.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "AWP | Atheris", 
+    "price": 22.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "AWP | Duality", 
+    "price": 16.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "AWP | Exoskeleton", 
+    "price": 28.00, 
+    "link": "", 
+    "image": "" 
+  },
+  { 
+    "name": "AWP | POP AWP", 
+    "price": 32.00, 
+    "link": "", 
+    "image": "" 
   }
 ]
