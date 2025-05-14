@@ -38,7 +38,10 @@ def get_inventory():
         price = item["price"]
         image = item.get("image", "/static/skins/skin.jpg")  # добавляем image
         link = item.get("link", "#")  # добавляем link
-        count = inventory.get(name, 0)
+        count = sum(
+            qty for inv_name, qty in inventory.items()
+            if inv_name.startswith(name)
+)
 
         result.append({
             "name": name,

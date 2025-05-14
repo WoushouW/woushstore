@@ -31,7 +31,7 @@ body {
 .top-title {
   flex-grow: 1;
   text-align: center;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
   white-space: nowrap;
   background: linear-gradient(270deg, #bb86fc, #ffffff, #bb86fc);
@@ -40,6 +40,18 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shineGradient 4s ease infinite;
+}
+
+@keyframes shineGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .h2 {
